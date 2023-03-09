@@ -38,6 +38,7 @@
      watch: {
         // 체크박스 전체 선택
         selectedCategories: function () {
+          console.log(this.selectedCategories);
           this.allSelected = this.selectedCategories.length === 4;
         }
       },
